@@ -1,0 +1,24 @@
+/* Risk indicator styles - semantic colors only */
+.risk-low {
+    background-color: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.risk-medium {
+    background-color: #fff3e0;
+    border-left: 4px solid #ff9800;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.risk-high {
+    background-color: #ffebee;
+    border-left: 4px solid #f44336;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    font-weight: 500;
+}

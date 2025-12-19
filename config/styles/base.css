@@ -1,0 +1,26 @@
+/* ===== STREAMLIT DATAFRAME FIX (SAFE) ===== */
+
+/* Wrapper utama */
+[data-testid="stDataFrame"] {
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+/* Header tabel saja */
+[data-testid="stDataFrame"] table thead th {
+    background-color: #f2f4f7 !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+
+/* Cell tabel */
+[data-testid="stDataFrame"] table tbody td {
+    color: #000 !important;
+    background-color: inherit !important; /* penting untuk gradient */
+    border-color: #e5e7eb !important;
+}
+
+/* Hover */
+[data-testid="stDataFrame"] table tbody tr:hover td {
+    background-color: #f8fafc !important;
+}

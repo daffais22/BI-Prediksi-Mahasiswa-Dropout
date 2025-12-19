@@ -1,0 +1,16 @@
+/* Components styles - Clean default theme */
+
+/* Hide default sidebar nav */
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+section[data-testid="stSidebarNav"] {
+    display: none !important;
+    height: 0px !important;
+    min-height: 0px !important;
+}
+
+ul[data-testid="stSidebarNavItems"] {
+    display: none !important;
+}
